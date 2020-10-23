@@ -1,0 +1,42 @@
+db.products.insert(
+{
+_id: 3,
+name: "Rubber",
+price: 1.3,
+stock: 43,
+reviews:[
+  {
+  authorName: "Sally",
+  rating: 5,
+  review: "Best Rubber ever!"
+  },
+  {
+  authorName: "John",
+  rating: 5,
+  review: "Awesome rubber!"
+  }
+]
+}
+)
+
+
+db.products.insertOne(
+{
+_id: 2,
+name: "Pencil",
+price: 0.80,
+stock: 12,
+review: [
+{
+  authorName: "James",
+  rating: 5,
+  review: "great"
+},
+{
+  authorName: "Jono",
+  rating: 5,
+  review: "good."
+}
+]
+}
+)
